@@ -1,11 +1,15 @@
+# This is to test out python in this system
+
 import sys
 
 print("Enter the array elements")
 print(sys.version)
 print(sys.executable)
 
+
 def greet(who_to_greet):
-    print("Hello", who_to_greet)
-    return
+    greeting = "Hello, {}".format(who_to_greet)
+    return greeting
+
 
 print(greet("Aman"))
